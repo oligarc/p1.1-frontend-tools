@@ -34,7 +34,7 @@ Ennumerate and explain each one of the files included in this repo.
    - for bootstrap, the snippet will help you if you remember a little bit (like okay, background color... maybe I can try
    - with bg)
    - **Live Server** : Lets you launch a local server so you can see the changes done in real time.
-   - **Prettier** : 
+   - **Prettier** : Used for automatically format your code in a consistent style so it is more readable and clean
    - **Markdown All in One**
 4. **Install the extensions listed in the previous point in VSCode**. Done
 5. **What other extensions do you know that you consider interesting for developing in JavaScript**?
