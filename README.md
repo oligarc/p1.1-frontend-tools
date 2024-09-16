@@ -87,6 +87,7 @@ Ennumerate and explain each one of the files included in this repo.
 16. **Inside the main area create a form using Bootstrap to collect data from a new user who wants to register at an academy that offers courses. We can copy code from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/forms/overview/)**. 
 
 ### Install Git, and upload your project to GitHub
+pS
 
 17. **Install [git](https://git-scm.com/) in your computer**.
     
