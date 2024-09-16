@@ -71,6 +71,9 @@ Ennumerate and explain each one of the files included in this repo.
     
     ![prueba](code.png)
 
+    Tried to put the script tag at the bottom of the head but it didn't work so instead I placed it at the end of the body.
+    I did my research and could be because app.js is loading before DOM (Document Object Model), so when the script is trying to modify the document.body.innerHTML, page's body is not ready yet
+
 11. **Launch `index.html` in Live Server and check that the script is running. Click right button and select inspect to show the developer tools and take a look on the console.**
     
 12. **Change some message in the JS code and sava changes. You can check that Live Server refreshes the web page.**
