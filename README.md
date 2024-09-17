@@ -24,7 +24,7 @@ Ennumerate and explain each one of the files included in this repo.
 
 - Any other question about Markdown language you can find in the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
-### Install and configure VSCode
+### Section 1: Install and configure VSCode
 
 1. **Install `VSCode` in your computer**.
 2. **Create a new folder called `p1.1-frontend-tools`and open it as a workspace in VSCode. Copy the current `README.md` inside it**.
@@ -35,13 +35,19 @@ Ennumerate and explain each one of the files included in this repo.
    - with bg)
    - **Live Server** : Lets you launch a local server so you can see the changes done in real time.
    - **Prettier** : Used for automatically format your code in a consistent style so it is more readable and clean
-   - **Markdown All in One**
+   - **Markdown All in One** : To simplify and enrich the experience when you're writing or editing a markdown document.
 4. **Install the extensions listed in the previous point in VSCode**. Done
 5. **What other extensions do you know that you consider interesting for developing in JavaScript**?
+   Coderunner, especially because this summer I was doing a JavaScript roadmap and my editor was VSC so when I wanted to run the code,
+   I could not find any run code botton.
+   Did my research and found a couple that may be interesting:
+   ESLint, to find errors or bugs in your code when you're typing in JS.
+   ImportCost, tells you the size that libraries you import have, it's very useful because we're working on FrontEnd so we don't really want
+   to have a over-megabyted web.
 6. **Find in VSCode the option in `Settings` to `Format On Save` and activate it. What effect has this option?** 
    Whenever you save the code or you go out of the code editor, VSC will format it for you so you don't have to do it manually
 
-### Create a Hello World in JS
+### Section 2: Create a Hello World in JS
 
 7. **Create an `index.html` file inside your worspace folder.**
 8. **Create the basic html structure using the `!` snippet and change the title to 'Hello World'**
@@ -69,39 +75,63 @@ Ennumerate and explain each one of the files included in this repo.
 
 10. **Import the script in your html using one of the techniques explained in class. Explain here the technique, show the code and justify why did you choose this technique**.
     
-    ![prueba](code.png)
+    ![whereToScript](code.png)
 
     Tried to put the script tag at the bottom of the head but it didn't work so instead I placed it at the end of the body.
     I did my research and could be because app.js is loading before DOM (Document Object Model), so when the script is trying to modify the document.body.innerHTML, page's body is not ready yet
 
 11. **Launch `index.html` in Live Server and check that the script is running. Click right button and select inspect to show the developer tools and take a look on the console.**
     
+    ![helloDocument](code2.png)
+    ![helloConsole](code3.png)
+    
 12. **Change some message in the JS code and sava changes. You can check that Live Server refreshes the web page.**
 
+    ![codeChange](code4.png)
+    ![codeChangeLive](code5.png)
 
-### Create a simple form with Bootstrap 4. 
+### Section 3: Create a simple form with Bootstrap 4. 
 
 13. **At this point, we are going to create a page called `form.html` starting from the `Bs5-$` template provided by the Bootstrap extension we added. What files does this template import in the html by default?**
     
+    ![bootStrap](code6.png)
+
+    We have the head and body like a simple HTML have. The most important changes we can see is that the head is related to the bootstrap-dedicated
+    css and then at the end of the body the script that refers to the js app.
+    
 14. **Create a `<div>`with the class `.container` to wrap all the sections in the web page**
+    
+    ![divMade](code7.png)
   
 15. **Add a standard navigation bar inside the nav area using the `bs5-navbar-standard` snippet inside the container**
+    
+    ![divMade](code8.png)
+
+    Did it like you told but makes more sense to me to place it in the header
 
 16. **Inside the main area create a form using Bootstrap to collect data from a new user who wants to register at an academy that offers courses. We can copy code from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/forms/overview/)**. 
+    
+    
 
-### Install Git, and upload your project to GitHub
-pS
+### Section 4: Install Git, and upload your project to GitHub
 
-17. **Install [git](https://git-scm.com/) in your computer**.
+1.  **Install [git](https://git-scm.com/) in your computer**.
+    Done
+2.  **Init the git project**
+   Done
     
-18. **Init the git project**
+3.  **Log in to your GitHub account provided by IES Azarquiel**
+   Done
     
-19. **Log in to your GitHub account provided by IES Azarquiel**
+4.  **Follow the teacher on GitHub at the following link: [https://github.com/jeatzr/](https://github.com/jeatzr/)**
+   Done
     
-20. **Follow the teacher on GitHub at the following link: [https://github.com/jeatzr/](https://github.com/jeatzr/)**
+5.  **Create a new empty project on GitHub named `p1.1-frontend-tools`.**
+   Done
     
-21. **Create a new empty project on GitHub named `p1.1-frontend-tools`.**
+6.  **Follow the instructions in the command line provided by GitHub to add your files, create the first commit and push it. Notice that in out case we have to add all files to the staged area with `git add .`, not just`git add README.md`** 
+
+
     
-22. **Follow the instructions in the command line provided by GitHub to add your files, create the first commit and push it. Notice that in out case we have to add all files to the staged area with `git add .`, not just`git add README.md`** 
-    
-23. **To finish, submit the link of your GH repo to the task in our Classroom.**
+7.  **To finish, submit the link of your GH repo to the task in our Classroom.**
+   Done
