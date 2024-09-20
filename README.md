@@ -75,37 +75,37 @@ Ennumerate and explain each one of the files included in this repo.
 
 10. **Import the script in your html using one of the techniques explained in class. Explain here the technique, show the code and justify why did you choose this technique**.
     
-    ![whereToScript](code.png)
+    ![whereToScript](images/code.png)
 
     Tried to put the script tag at the bottom of the head but it didn't work so instead I placed it at the end of the body.
     I did my research and could be because app.js is loading before DOM (Document Object Model), so when the script is trying to modify the document.body.innerHTML, page's body is not ready yet
 
 11. **Launch `index.html` in Live Server and check that the script is running. Click right button and select inspect to show the developer tools and take a look on the console.**
     
-    ![helloDocument](code2.png)
-    ![helloConsole](code3.png)
+    ![helloDocument](images/code2.png)
+    ![helloConsole](images/code3.png)
     
 12. **Change some message in the JS code and sava changes. You can check that Live Server refreshes the web page.**
 
-    ![codeChange](code4.png)
-    ![codeChangeLive](code5.png)
+    ![codeChange](images/code4.png)
+    ![codeChangeLive](images/code5.png)
 
 ### Section 3: Create a simple form with Bootstrap 4. 
 
 13. **At this point, we are going to create a page called `form.html` starting from the `Bs5-$` template provided by the Bootstrap extension we added. What files does this template import in the html by default?**
     
-    ![bootStrap](code6.png)
+    ![bootStrap](images/code6.png)
 
     We have the head and body like a simple HTML have. The most important changes we can see is that the head is related to the bootstrap-dedicated
     css and then at the end of the body the script that refers to the js app.
     
 14. **Create a `<div>`with the class `.container` to wrap all the sections in the web page**
     
-    ![divMade](code7.png)
+    ![divMade](images/code7.png)
   
 15. **Add a standard navigation bar inside the nav area using the `bs5-navbar-standard` snippet inside the container**
     
-    ![divMade](code8.png)
+    ![divMade](images/code8.png)
 
     Did it like you told but makes more sense to me to place it in the header
 
@@ -131,8 +131,8 @@ Ennumerate and explain each one of the files included in this repo.
     
 6.  **Follow the instructions in the command line provided by GitHub to add your files, create the first commit and push it. Notice that in out case we have to add all files to the staged area with `git add .`, not just`git add README.md`** 
 
-![git1](git.png)
-![git2](git2.png)
+![git1](images/git.png)
+![git2](images/git2.png)
 
     
 7.  **To finish, submit the link of your GH repo to the task in our Classroom.**
