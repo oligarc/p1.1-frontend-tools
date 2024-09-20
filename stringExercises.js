@@ -22,9 +22,8 @@ console.log(fullData)
 
 //SPLITTING AND TRIMMING STRINGS
 
-let things = " Coco,        Margarita,Caritrini,Peter,Woody"
-console.log(things.trim())
-let thingSplits = things.trim().split(",")
+let things = "Coco,        Margarita,Caritrini,   Peter,Woody"
+let thingSplits = things.split(/[ ,]+/) //Regular expression that takes off the spaces between the list of things. Its pretty good
 console.log(thingSplits)
 
 
